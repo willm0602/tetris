@@ -1,0 +1,27 @@
+The model works by having a series of strings using a hash-symbol to represent where the 
+tiles are
+
+For example, when trying to construct an "L-piece", we want
+the entire top row and only the first tile of the second row to be
+filled in. We can do this by using the following
+
+"###"
+"#"
+
+The reason why we don't need for the second string to be, "#  " is because it will
+add that tile and then terminate without needing to go through the empty spaces.
+
+Another example is the "T-piece". We again fill in the top row as before but for this
+piece, we will want only the middle of the second piece (the second value of the second piece)
+to be filled in, like so:
+
+"###"
+" #"
+The reason why we don't need a space after the # in the second value is because there are no more
+values to add in that row. 
+
+For neatness sake, you could add an additional space to make it
+"###"
+" # "
+but that would add an additional search that isn't needed
+
