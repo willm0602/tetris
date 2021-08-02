@@ -20,7 +20,7 @@ COLORS = {
     "BTN_COLOR": (205, 215, 214),
     "TITLE_COLOR": (248, 112, 96),
     "BACKGROUND_COLOR": (16, 37, 66),
-    "GAME_BACKGROUND": (145, 136, 135)
+    "GAME_BACKGROUND": (150, 136, 135)
 }
 
 DB_PATH = './Scores.db'
